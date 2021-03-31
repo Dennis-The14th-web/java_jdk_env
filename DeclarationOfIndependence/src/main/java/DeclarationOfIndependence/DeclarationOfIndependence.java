@@ -29,6 +29,10 @@ public class DeclarationOfIndependence {
           
             //Split the string into words using built-in function
            
+
+            // TODO
+            // Remove the replace method and use the remove method
+            // will have to convert scanner to a string or apply any other available method
             //excluding these words "of", "the", "to", "and","for"
             String replaceString = string.replace("of", "")
                       .replace("the", "").replace("to", "")
@@ -58,3 +62,29 @@ public class DeclarationOfIndependence {
 }
 
 }
+
+
+// TODO
+//        for (String word : words) {
+//            wordsList.add(word);
+//        }
+//        System.out.println("After for loop:  " + wordsList);
+
+//         for (int j = 0; j < stopWords.length; j++) {
+//                if (wordsList.contains(stopWords[j])) {
+//                wordsList.remove(stopWords[j]);//remove it
+//                    System.out.println("DATA: " + stopWords[j]);
+//                }
+//            }
+//        for (int i = 0; i < wordsList.size(); i++) {
+//            // get the item as string
+//            for (int j = 0; j < stopWords.length; j++) {
+//                if (stopWords[j].contains(wordsList.get(i))) {
+//                    wordsList.remove(i);
+//                }
+//            }
+//        }
+//        for (String str : wordsList) {
+//            System.out.print("DATA: "+ str + " ");
+//        }
+
