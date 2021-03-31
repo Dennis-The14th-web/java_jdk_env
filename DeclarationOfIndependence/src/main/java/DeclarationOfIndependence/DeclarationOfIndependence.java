@@ -13,7 +13,7 @@ public class DeclarationOfIndependence {
     {   
         //Set the delimiter used in file
         try ( //Get scanner instance
-                Scanner scanner = new Scanner(new File("src/Files/decFile.csv"))) {
+                Scanner scanner = new Scanner(new File("DeclarationOfIndependence/src/Files/decFile.csv"))) {
             //Set the delimiter used in file
             scanner.useDelimiter(",");
             
@@ -32,7 +32,7 @@ public class DeclarationOfIndependence {
 
             // TODO
             // Remove the replace method and use the remove method
-            // will have to convert scanner to a string or apply any other available method
+            // will have to convert scanner to a string or apply any other available 
             //excluding these words "of", "the", "to", "and","for"
             String replaceString = string.replace("of", "")
                       .replace("the", "").replace("to", "")
