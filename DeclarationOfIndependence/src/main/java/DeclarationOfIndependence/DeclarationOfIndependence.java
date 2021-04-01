@@ -63,8 +63,8 @@ public class DeclarationOfIndependence {
 
         /*
         Let's build a chessboard with a 2 diminsional array
-        java gives us the opportunity of creating a 2 dimensional array
-        How sweet, that is why we are use a nested for loop to interact with these arrays.
+        java gives us the opportunity of creating a multi-deminsional array
+        How sweet, that is why we are using a nested for loop to iterate on these arrays.
         */
 
         // int boardDim = 8;
