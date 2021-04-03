@@ -7,7 +7,7 @@ public class TempConverter {
         char inputType;
         char outputType;
         float inputValue;
-        float returnValue;
+        // float returnValue;
         
         System.out.print("Input type (F/C/K): ");
         inputType = reader.next().charAt(0);
@@ -16,6 +16,7 @@ public class TempConverter {
         System.out.print("Temperature: ");
         inputValue = reader.nextFloat();
         
+        //Switching btw cases in the intput
         switch(inputType)
         {
             case 'F':
@@ -30,6 +31,7 @@ public class TempConverter {
                 System.exit(1);
         }
         
+        //Switching btw cases in the output
         switch(outputType)
         {
             case 'F':
@@ -45,16 +47,22 @@ public class TempConverter {
         }
         
         System.out.println(inputValue);
+        reader.close();
     }
     
+    //Method to convert fahrenheit to celsius
     public static float fToC(float fVal)
     {
         return ((fVal-32.0f)*5.0f)/9.0f;
     }
+
+    //Method to convert kelvin to fahrenheit
     public static float kToF(float kVal)
     {
         return (((kVal-273.15f)*9.0f)/5.0f)+32.0f;
     }
+
+    //Method to convert celsius to kelvin
     public static float cToK(float cVal)
     {
         return cVal+273.15f;
