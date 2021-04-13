@@ -1,4 +1,4 @@
-package DeclarationOfIndependence;
+package randomJavaClasses.src.main.java;
 import java.util.*;
 
 public class JavaFuctions2 {

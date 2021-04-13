@@ -1,4 +1,4 @@
-package DeclarationOfIndependence.src.main.java.DeclarationOfIndependence;
+package randomJavaClasses.src.main.java.DeclarationOfIndependence;
 import java.io.FileNotFoundException;
 import java.util.*;
 import java.io.File;
