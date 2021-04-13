@@ -1,4 +1,5 @@
 package DeclarationOfIndependence.src.main.java;
+
 import java.util.*;
 
 public class TempConverter {
@@ -8,7 +9,6 @@ public class TempConverter {
         char outputType;
         float inputValue;
         // float returnValue;
-        
         System.out.print("Input type (F/C/K): ");
         inputType = reader.next().charAt(0);
         System.out.print("Output type (F/C/K): ");
