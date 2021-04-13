@@ -1,4 +1,4 @@
-package randomJavaClasses;
+package randomJavaClasses.src.main.java;
 
 import java.util.*;
 
