@@ -3,7 +3,7 @@ package DeclarationOfIndependence.src.test.java.DeclarationOfIndependence;
 /**
  * Unit test for simple App.
  */
-class DeclarationOfIndependenceTest {
+class AppTest {
     /**
      * Rigorous Test.
      */

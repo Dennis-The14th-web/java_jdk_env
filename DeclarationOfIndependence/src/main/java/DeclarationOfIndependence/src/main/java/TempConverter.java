@@ -68,4 +68,3 @@ public class TempConverter {
         return cVal+273.15f;
     }
 }
-    
