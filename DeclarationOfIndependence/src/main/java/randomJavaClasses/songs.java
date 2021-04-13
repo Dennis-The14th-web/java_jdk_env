@@ -1,4 +1,4 @@
-package DeclarationOfIndependence.src.main.java;
+package randomJavaClasses;
 
 import java.util.*;
 
